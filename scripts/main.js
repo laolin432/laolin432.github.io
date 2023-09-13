@@ -4,11 +4,11 @@ myHeading.textContent = "老覃！";
 let myImage = document.querySelector("img");
 myImage.onclick = function () {
   let mySrc = myImage.getAttribute("src");
-  if (mySrc === "images/222.png") {
-    myImage.setAttribute("src", "images/Snipaste_2023-09-11_10-40-30.png");
+  if (mySrc === "images/1.jpg") {
+    myImage.setAttribute("src", "images/2.jpg");
   }
   else{
-    myImage.setAttribute("src", "images/222.png");
+    myImage.setAttribute("src", "images/1.jpg");
   }
 };
 
