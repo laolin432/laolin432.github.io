@@ -1,5 +1,5 @@
 let myHeading = document.querySelector("h1");
-myHeading.textContent = "老覃！";
+myHeading.textContent = "hellow!!";
 
 let myImage = document.querySelector("img");
 myImage.onclick = function () {
